@@ -3,3 +3,17 @@
 //
 
 #include "Magic.h"
+
+namespace Magic
+{
+    Magic::Magic()
+    {
+
+    }
+
+    Magic::~Magic()
+    {
+
+    }
+
+}

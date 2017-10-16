@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.8)
 
 project(tests)
 
+include_directories(../main/include)
+
 file(GLOB_RECURSE SOURCE_FILES *.cpp)
 
 link_directories(../deps/lib)
