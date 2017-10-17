@@ -9,7 +9,18 @@
 
 using  namespace Magic;
 
+class GLFWwindow;
+
 class GLFWWindow : public Window{
+
+public:
+    GLFWWindow();
+    virtual ~GLFWWindow();
+
+    void init();
+
+protected:
+    GLFWwindow* _window;
 
 };
 
