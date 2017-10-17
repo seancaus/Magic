@@ -11,7 +11,7 @@ namespace Magic
 
     public:
         Window();
-        ~Window();
+        virtual ~Window();
     };
 }
 

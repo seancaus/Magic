@@ -1,6 +1,11 @@
 #include <iostream>
+#include "Magic.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+using namespace std;
+
+int main()
+{
+    Magic::Magic magic;
+    magic.createRenderWindow("",500,400, false);
     return 0;
 }
